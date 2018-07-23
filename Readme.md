@@ -23,7 +23,7 @@ http://nltapp0001.azurewebsites.net/
 
 ### For strengthen Backend API from external we could use: 
   - When keeping the current App Service architecture. Then implement Service to Service authentication (with e.g. auth tokens)  
-  That will respond with 401 when reaching particular endpoint when not authenticated (but not 403 that doesn't exist).  
+  That will respond with 401 when reaching particular endpoint when not authenticated (but not with 404 that doesn't exist).  
 
   - Change infrastructure architecture to Service Fabric with Application Gateway. For external, publicly exposed endpoint so front-end would be dedicated API rules in the Application Gateway (under Rules aka ReverseProxy). Further for internal use only there will be the back-end service with /api/incidents. Then rest of incoming requests blocked under HTTP Settings.  
   Diagram can be prepared upon request.  
