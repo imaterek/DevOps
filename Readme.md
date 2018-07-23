@@ -41,7 +41,7 @@ http://nltapp0001.azurewebsites.net/
 The solution has been prepared in Visual Studio Team Services with leveraging: 
  - Using Build for building back-end App - dotnet Build task  
  - Using Release to:
-  - Publish back-end App to App Service from Build's artefact
-  - Publish front-end to App Service
+   - Publish back-end App to App Service from Build's artefact
+   - Publish front-end to App Service
 Further e.g. screenshots are available upon request.  
 Creation of App Service Plan and App Services, Azure SQL and DB then Firewall rules can be included in Release definition  as well. Then would be closer to IaaC approach.  
