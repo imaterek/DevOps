@@ -12,7 +12,7 @@ http://nltapp0001.azurewebsites.net/
 
 ## Infrastructure underneath 
 
-- Two App Services on one App Service Plan
+- Two App Services on App Service Plan and single Azure SQL Server with a DB  
 
 -  Backend is properly communicating with DB showing entries, e.g.:  
 ![](./images/DevOps02.png)   
